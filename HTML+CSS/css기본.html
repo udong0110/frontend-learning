@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS demo</title>
+    <style>
+        * {
+            color: green;
+        }
+
+        li {
+            color: aquamarine
+        }
+
+        li#special {
+            color: pink;
+        }
+
+        .red {
+            padding: 50px 25px;
+            margin: 50px 100px;
+            border: 2px solid yellow;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+
+        button:hover {
+            background-color: gray;
+            color: brown;
+        }
+
+        a[href $=".com"] {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <ol>
+        <li id="special">First</li>
+        <li>Second</li>
+    </ol>
+    <h1 id="special">Hello</h1>
+    <button>button1</button>
+    <button>button2</button>
+    <div class="red"></div>
+    <div class="blue"></div>
+    <a href="https://naver.com">Naver</a>
+    <a href="https://google.com">Google</a>
+    <a>Empty</a>
+</body>
+
+</html>
